@@ -1,6 +1,6 @@
 <?php
+// Padronização de interface para as classes que implementam a busca de informações
 interface IGetInfo {
-    //Todos os nomes estão em H3
       function getNome();
       function getEmail();
       function getRamal();
